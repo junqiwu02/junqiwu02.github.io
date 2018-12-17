@@ -9,3 +9,7 @@
 .top-nav-collapse {
     background-color: #4B515D;
 }
+
+.btn {
+    border-radius: 1000px;
+}
