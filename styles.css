@@ -4,10 +4,11 @@ body {
 
 a {
     text-decoration: none;
+    transition-duration: 0.5s;
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -20,7 +21,6 @@ a {
 .navbar a {
     margin: 20px;
     color: dimgray;
-    transition-duration: 0.5s;
 }
 
 .navbar a:hover {
@@ -37,21 +37,31 @@ p {
 
 img {
     width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
-.col {
+.row {
+    padding: 50px 0px;
+    display: flex;
+    justify-items: center;
+}
 
+.row img, .row p {
+    padding: 10px 0;
 }
 
 .footer {
-    padding: 20px 0px;
+    color: dimgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer a {
     color: dimgray;
 }
 
-.footer p {
-    text-align: right;
+.footer a:hover {
+    color: darkgray;
 }
