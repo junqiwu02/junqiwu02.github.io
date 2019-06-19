@@ -43,6 +43,7 @@ a.active:hover {
 .footer {
     display: flex;
     justify-content: space-between;
+    margin: 20px;
 }
 
 .footer a {
@@ -68,4 +69,26 @@ a.active:hover {
 .container-1 p {
     flex: 1;
     margin: 0 50px;
+}
+
+@media (max-width: 992px) {
+    .content {
+        width: 100%;
+    }
+
+    .navbar a {
+        margin: 10px;
+    }
+
+    .container-1 {
+        flex-direction: column;
+    }
+
+    .container-1 p {
+        margin: 0 10px;
+    }
+
+    .container-1 img {
+        margin: auto;
+    }
 }
