@@ -67,6 +67,8 @@ label {
 }
 
 input {
+    -webkit-appearance: none;
+
     margin: 5px;
     padding: 10px;
     background-color: whitesmoke;
@@ -81,6 +83,8 @@ input:focus {
 }
 
 textarea {
+    -webkit-appearance: none;
+
     margin: 5px;
     padding: 10px;
     min-height: 200px;

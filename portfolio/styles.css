@@ -52,8 +52,12 @@ a.active:hover {
 }
 
 .container-1 {
-    margin: 25px 50px;
+    margin: 50px 50px 0 50px;
     display: flex;
+}
+
+.container-1 div {
+    flex: 1;
 }
 
 .container-1 img {
@@ -64,8 +68,12 @@ a.active:hover {
     border: 1px solid whitesmoke;
 }
 
+.container-1 h4 {
+    text-align: center;
+}
+
 .container-1 p {
-    margin: 50px;
+    margin: 0 50px 50px 50px;
 }
 
 hr {
@@ -87,9 +95,12 @@ hr {
         margin: 25px 0;
     }
 
+    .container-1 div {
+        order: 1;
+    }
+
     .container-1 p {
         margin: 25px 10px;
-        order: 1;
     }
 
     .container-1 img {
