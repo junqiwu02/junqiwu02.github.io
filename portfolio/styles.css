@@ -29,7 +29,7 @@ a.active:hover {
 }
 
 .spacer {
-    padding: 75px 0;
+    padding: 80px 0;
 }
 
 .navbar {
@@ -46,6 +46,8 @@ a.active:hover {
 
 .navbar img {
     margin: 30px;
+    transition-duration: 0.25s;
+    transition-property: height margin;
 }
 
 .navbar a {

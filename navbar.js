@@ -1,0 +1,14 @@
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+// When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("seal").style.height = "0";
+    document.getElementById("seal").style.margin = "10px";
+
+  } else {
+    document.getElementById("seal").style.height = "90px";
+    document.getElementById("seal").style.margin = "30px";
+  }
+}

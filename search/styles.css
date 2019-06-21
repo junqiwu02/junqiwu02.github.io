@@ -46,6 +46,15 @@ a.active:hover {
 
 .navbar img {
     margin: 30px;
+    transition-duration: 0.25s;
+    transition-property: height margin;
+}
+
+.navbar h2 {
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: normal;
 }
 
 .navbar a {
