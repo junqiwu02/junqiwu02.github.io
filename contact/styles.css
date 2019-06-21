@@ -28,11 +28,21 @@ a.active:hover {
     margin: auto;
 }
 
-.navbar {
-    text-align: center;
-    /* box-shadow: 0px 2px 1px lightgray; */
+.spacer {
+    padding: 75px 0;
 }
 
+.navbar {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 20px;
+    background-color: white;
+    z-index: 100;
+    /* box-shadow: 0px 2px 1px lightgray; */
+}
 .navbar img {
     margin: 30px;
 }
@@ -68,6 +78,7 @@ label {
 
 input {
     -webkit-appearance: none;
+    border-radius: 0;
 
     margin: 5px;
     padding: 10px;

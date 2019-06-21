@@ -28,8 +28,19 @@ a.active:hover {
     margin: auto;
 }
 
+.spacer {
+    padding: 75px 0;
+}
+
 .navbar {
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 20px;
+    background-color: white;
+    z-index: 100;
     /* box-shadow: 0px 2px 1px lightgray; */
 }
 
@@ -59,6 +70,7 @@ form {
 
 input {
     -webkit-appearance: none;
+    border-radius: 0;
 
     flex: 1;
     padding: 10px;
