@@ -51,6 +51,28 @@ a.active:hover {
     margin: 5px;
 }
 
+.container-1 {
+    margin: 25px 50px;
+    display: flex;
+}
+
+.container-1 img {
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
+
+.container-1 p {
+    margin: 50px;
+}
+
+hr {
+    width: 50%;
+    border: 1px solid whitesmoke;
+}
+
 @media (max-width: 992px) {
     .content {
         width: 100%;
@@ -58,5 +80,23 @@ a.active:hover {
     
     .navbar a {
         margin: 10px;
+    }
+
+    .container-1 {
+        flex-direction: column;
+        margin: 25px 0;
+    }
+
+    .container-1 p {
+        margin: 25px 10px;
+        order: 1;
+    }
+
+    .container-1 img {
+        margin: 25px auto;
+    }
+
+    hr {
+        width: 75%;
     }
 }
