@@ -46,7 +46,7 @@ a.active:hover {
 
 .navbar img {
     margin: 30px;
-    transition-duration: 0.25s;
+    transition-duration: 0.5s;
     transition-property: height margin;
 }
 
