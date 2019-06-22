@@ -9,12 +9,9 @@ input {
     border-radius: 0;
 
     flex: 1;
-    padding: 10px;
+    padding: 10px 10px 10px 30px;
     background-color: white;
     border: 1px solid darkgray;
-    border-left: 0;
-    transition-duration: 0.5s;
-    transition-property: background-color;
 }
 
 input:focus {
@@ -35,17 +32,7 @@ input:focus {
 }
 
 form i {
+    position: absolute;
     padding: 10px 0px 10px 10px;
     color: slateblue;
-    border: 1px solid darkgray;
-    border-right: 0;
-}
-
-button {
-    padding: 0 40px;
-    color: slateblue;
-    background-color: white;
-    border: 1px solid slateblue;
-    transition-duration: 0.5s;
-    transition-property: color background-color;
 }
