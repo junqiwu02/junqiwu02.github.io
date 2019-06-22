@@ -1,14 +1,13 @@
 form {
     margin: 100px auto;
     max-width: 500px;
-    display: flex;
 }
 
 input {
     -webkit-appearance: none;
     border-radius: 0;
 
-    flex: 1;
+    width: 100%;
     padding: 10px 10px 10px 30px;
     background-color: white;
     border: 1px solid darkgray;
@@ -33,6 +32,6 @@ input:focus {
 
 form i {
     position: absolute;
-    padding: 10px 0px 10px 10px;
+    margin: 10px 0px 10px 10px;
     color: slateblue;
 }
