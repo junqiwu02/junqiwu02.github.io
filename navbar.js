@@ -7,8 +7,8 @@ window.onscroll = function () {
 };
 
 if (isMobile) {
-    document.getElementById("seal").remove();
-    document.getElementsByClassName("spacer")[0].style.padding = "20px 0";
+    document.getElementsByClassName("spacer")[0].style.padding = "0";
+    document.getElementsByClassName("navbar")[0].style.position = "relative";
 }
 
 function scrollFunction() {
