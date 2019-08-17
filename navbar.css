@@ -41,6 +41,7 @@ a.active:hover {
     padding-bottom: 30px;
     background-color: white;
     z-index: 100;
+    opacity: 0.95;
     /* box-shadow: 0 0px 30px 30px whitesmoke; */
 }
 
