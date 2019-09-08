@@ -10,6 +10,7 @@ input {
 
     flex: 1;
     padding: 10px;
+    margin:0;
     background-color: white;
     border: 1px solid darkgray;
     border-right: 0;
