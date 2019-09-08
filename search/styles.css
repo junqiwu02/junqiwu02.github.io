@@ -9,9 +9,10 @@ input {
     border-radius: 0;
 
     flex: 1;
-    padding: 10px 10px 10px 30px;
+    padding: 10px;
     background-color: white;
     border: 1px solid darkgray;
+    border-right: 0;
 }
 
 input:focus {
@@ -31,8 +32,22 @@ input:focus {
     color: darkgray;
 }
 
-form i {
-    position: absolute;
-    margin: 10px 0px 10px 10px;
+button {
+    margin: 0;
+    padding: 10px 50px;
     color: slateblue;
+    background-color: white;
+    border: 1px solid slateblue;
+    transition-duration: 0.5s;
+    transition-property: color background-color;
+}
+
+button:hover {
+    color: white;
+    background-color: slateblue;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
 }

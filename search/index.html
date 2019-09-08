@@ -25,12 +25,12 @@
         </div>
         <div class="spacer"></div>
 
-        <!--form class="fadein" action="">
-            <i class="fas fa-search"></i>
-            <input type="text" placeholder="Type to search...">
-        </form-->
-
-        <p class="fadein" style="text-align: center; padding: 100px 0;">Nothing here yet, check back later.</p>
+        <form class="fadein" onsubmit="return search()" action="">
+            <input id="query" type="text" placeholder="Search...">
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
 
         <div class="footer">
             <div>
@@ -45,6 +45,7 @@
     </div>
 
     <script src="../navbar.js"></script>
+    <script src="search.js"></script>
 </body>
 
 </html>
