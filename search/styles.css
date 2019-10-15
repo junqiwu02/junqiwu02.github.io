@@ -16,6 +16,16 @@ input {
     border-right: 0;
 }
 
+.container-1 {
+    margin: 100px auto;
+    max-width: 500px;
+    display: flex;
+}
+
+.container-1 * {
+    flex: 1;
+}
+
 input:focus {
     outline: none;
 }
