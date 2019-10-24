@@ -4,7 +4,7 @@ form {
     display: flex;
 }
 
-input {
+/*input {
     -webkit-appearance: none;
     border-radius: 0;
 
@@ -14,6 +14,11 @@ input {
     background-color: white;
     border: 1px solid darkgray;
     border-right: 0;
+}*/
+
+input {
+    color: dimgray;
+    font-size: 1.1em !important;
 }
 
 .container-1 {
@@ -22,7 +27,7 @@ input {
     display: flex;
 }
 
-.container-1 * {
+.container-1 > div {
     flex: 1;
 }
 
@@ -43,22 +48,47 @@ input:focus {
     color: darkgray;
 }
 
-button {
+button.gsc-search-button {
     margin: 0;
     padding: 10px 50px;
     color: slateblue;
     background-color: white;
     border: 1px solid slateblue;
+    border-radius: 0;
     transition-duration: 0.5s;
     transition-property: color background-color;
 }
 
-button:hover {
+button.gsc-search-button:hover {
     color: white;
     background-color: slateblue;
     cursor: pointer;
 }
 
-button:focus {
-    outline: none;
+button.gsc-search-button:focus {
+    box-shadow: none;
+    background-color: slateblue;
+}
+
+button.gsc-search-button svg {
+    fill: slateblue;
+    transition-duration: 0.5s;
+}
+
+button.gsc-search-button:focus svg {
+    fill: white;
+}
+
+button.gsc-search-button:hover svg {
+    fill: white;
+}
+
+td.gsc-input {
+    padding: 0 !important;
+    border: 1px solid gainsboro;
+    border-radius: 0;
+}
+
+div.gsc-input-box {
+    border: none;
 }
