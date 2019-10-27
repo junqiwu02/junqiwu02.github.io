@@ -1,12 +1,12 @@
 .container-1 {
-    margin: 7.1em 0;
+    margin: 100px 0;
     display: flex;
 }
 
 .container-1 img {
-    margin: 3.6em;
-    width: 10.7em;
-    height: 10.7em;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 1px solid whitesmoke;
 }
@@ -17,7 +17,7 @@
 
 .container-1 p {
     flex: 1;
-    margin: 0 3.6em;
+    margin: 0 50px;
 }
 
 @media (max-width: 992px) {
