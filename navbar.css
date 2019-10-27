@@ -59,6 +59,9 @@ a.active:hover {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer a {
