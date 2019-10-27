@@ -1,6 +1,9 @@
 .container-1 {
-    margin: 100px 0;
+    padding: 100px 0;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    max-width: 1140px;
 }
 
 .container-1 img {
